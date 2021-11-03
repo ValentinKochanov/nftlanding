@@ -1,0 +1,140 @@
+.scrinFirst{
+  background-image: url(../img/background.svg);
+  height: 832px;
+}
+.AppHeader{
+  width: auto;
+  height: 232px;
+}
+.HeaderContainer{
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  padding: 43px 20px 30px 80px;
+}
+.Logo{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 180px;
+  top: 59px;
+  border-radius: 20px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(140.08deg, #9CD2EE 3.42%, #00ACEE 95.98%);
+}
+.AppHeader h3{
+  position: absolute;
+  width: 98px;
+  height: 35px;
+  left: 237px;
+  top: 41px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 175.4%;
+  color: #FFFFFF;
+}
+.HeaderUl{
+  display: flex;
+  color: #FFFFFF;
+  width: 900px;
+  justify-content: space-around;
+  padding: 4px 0 0 250px;
+}
+.BtnLogin{
+  width: 113px;
+  height: 48px;
+  margin-top: 13px;
+  background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+  box-shadow: 15px 15px 35px rgba(226, 142, 15, 0.18);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 175.4%;
+  color: #F4F4F4;
+  cursor: pointer;
+}
+.scrinFirst li{
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 175.4%;
+  color: #FFFFFF;
+  cursor:pointer;
+}
+#titleScrinFirst{
+  width: 472px;
+  height: 204px;
+  padding-left: 177px;
+}
+#titleScrinFirst p{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 68px;
+  color: #FFFFFF;
+}
+#descriptionScrinFirst{
+  width: 440px;
+  height: 132px;
+  padding-left: 177px;
+}
+#descriptionScrinFirst p{
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 157.9%;
+  color: #FFFFFF;
+}
+.BtnGroup{
+  padding-left: 177px;
+  padding-top: 30px;
+}
+.BtnGroup button{
+  width: 155px;
+  height: 48px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.BtnExplore{
+  background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+}
+.BtnCreate{
+  border: 1px solid #FF8E1E;
+  box-sizing: border-box;
+  margin-left: 30px;
+}
+.InfoWindow{
+  position: absolute;
+  width: 255px;
+  height: 192px;
+  left: 1022px;
+  top: 520px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(140.08deg, #9CD2EE 3.42%, #00ACEE 95.98%);
+  box-shadow: -46px -61px 36px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: Montserrat;
+  color: #F4F4F4;
+  line-height: 175.4%;
+}
+.InfoWindow h2{
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 29px;
+  margin-top: 20px;
+}
+.InfoWindow .value{
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 10px;
+}
+.InfoWindow .price{
+  font-weight: normal;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.InfoWindow .name{
+  display: flex;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 34px;
+  padding-top: 10px;
+}
+.InfoWindow .vector{
+  margin-left: 29px;
+}

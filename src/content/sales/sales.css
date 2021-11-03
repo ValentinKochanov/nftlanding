@@ -1,0 +1,47 @@
+.sales{
+  margin: 0 50px;
+}
+.sales ul{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  margin-left: 35px;
+}
+.sales li{
+  margin: 10px 10px;
+  background: #F4F4F4;
+  box-shadow: 12px 18px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.sales .label{
+  padding-left: 29px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 175.4%;
+  color: #232222;
+  margin-bottom: 0;
+}
+.sales .price{
+  padding-left: 29px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 175.4%;
+  color: #FF8E1E;
+}
+.sales .price span{
+  padding-left: 16px;
+}
+.salesman{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.salesman p{
+  margin-left: 17px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 175.4%;
+  color: #232222;
+}

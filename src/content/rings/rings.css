@@ -1,0 +1,19 @@
+.rings ul{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.rings img{
+  width: 310px;
+  height: 344px;
+  border-radius: 20px;
+}
+.rings li{
+  cursor: pointer;
+}
+.selected{
+  color: white;
+  background: linear-gradient(132.95deg, #FFC301 9.31%, #FF6533 79.4%);
+  box-shadow: 12px 18px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}

@@ -1,0 +1,13 @@
+.cripto{
+  height: 208px;
+  background: #F4F4F4;
+}
+.cripto ul{
+  display: flex;
+  justify-content: space-around;
+  height: inherit;
+  padding-left: 0px;
+}
+.cripto li{
+  margin: auto auto auto auto;
+}

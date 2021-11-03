@@ -1,0 +1,35 @@
+.wrapperLogo{
+  display: flex;
+}
+.LogoFutter{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 10px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(140.08deg, #9CD2EE 3.42%, #00ACEE 95.98%);
+}
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 158px;
+  padding-bottom: 174px;
+}
+.descriptionFooter{
+  width: 373px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 189.9%;
+  color: #232222;
+}
+#labelFooter{
+  padding-left: 17px;
+}
+.titleBold{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 163.9%;
+  color: #232222;
+}
+footer p{
+  cursor: pointer;
+}
