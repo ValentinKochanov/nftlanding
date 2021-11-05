@@ -1,11 +1,10 @@
 import React from 'react'
 import './content.css';
-import Rings from './rings/Rings'
-import Sales from './sales/Sales'
+import RingsContainer from './rings/RingsContainer'
+import SalesContainer from './sales/SalesContainer'
 import Cripto from './cripto/Cripto'
 
-
-export const Content = (props) => {
+export const Content = () => {
   return (
     <div>
       <div className="scrinSecond">
@@ -15,14 +14,14 @@ export const Content = (props) => {
         <div className="descriptionScrinSecond">
           <p>This NFT website is a website that features buying and selling, news and blogs. Designed with a minimalist and informative concept</p>
         </div>
-        <Rings />
+        <RingsContainer />
         <div className="titleScrinSecond">
           <p>Exclusive NFT.Ring drops</p>
         </div>
         <div className="descriptionScrinSecond">
           <p>This NFT website is a website that features buying and selling, news and blogs. Designed with a minimalist and informative concept</p>
         </div>
-        <Sales />
+        <SalesContainer />
       </div>
       <div className="scrinThird">
         <div id="titleScrinThird">
